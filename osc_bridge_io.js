@@ -1,6 +1,6 @@
 'use strict';
 
-// This program makes uses socketio to connect to a specified web server, 
+// This  program makes uses socketio to connect to a specified web server, 
 // then rotues the messages recieved though OSC to a specified port and ip
 //
 // MORAKANA for IRL URL class 2023
@@ -19,7 +19,7 @@ const { Client, Message } = require('node-osc');
 /////
 let osc_port=7331; //program OSC Port (Max or Abelton, etc)
 let osc_ip="127.0.0.1"; //local computer IP 127.0.0.1
-let socket_io_address="http://pvtmsockets.glitch.me" //socket server
+let socket_io_address="https://grass-daisy-break.glitch.me/" //socket server
 
 
 let socket_client = io.connect(socket_io_address, {reconnect: true});
