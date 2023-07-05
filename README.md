@@ -14,9 +14,9 @@ Download or clone this repo
 
 Using your favorite text editor, open the osc_brdige_io.js file and look for the following lines
 
-    let osc_port=7331;
+    let osc_port=10000;
     let osc_ip="127.0.0.1";
-    let socket_io_address="http://pvtmsockets.glitch.me"
+    let socket_io_address="https://hardwaremovement.glitch.me"
 
 These are the lines of code that you will need to update to your desired settings.
 
